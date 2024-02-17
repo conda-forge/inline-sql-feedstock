@@ -1,5 +1,5 @@
 {% set name = "inline-sql" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/inline_sql-{{ version }}.tar.gz
-  sha256: 031599f0009b4b69d50a938a71d8405a66875c13993ff7b9e46a280e78c913ba
+  sha256: c0ad4826c1eb243dbcfcb1958a94191578d65bddc3a26633c60862062a86612d
 
 build:
   noarch: python
